@@ -1,3 +1,3 @@
 # Bestoon
 
-A simple Income/Expense system!
+I am learning from Jadi's Bestoon project!
