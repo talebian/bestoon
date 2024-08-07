@@ -18,8 +18,8 @@ def submit_expense(request):
     Expense.objects.create(user = this_user, amount = request.POST['amount'],
                            text = request.POST['text'], date = date)
 
-    print("I'm in submit expense with POST method")
-    print(request.POST)
+    print("I'm in submit expense with POST method. The request.POST is", request.POST)
+    print("While the request.GET is", request.GET)
 
     return JsonResponse({
         'status': 'ok > POST method'
